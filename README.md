@@ -3,7 +3,7 @@
 ## Author: Katrina Hill
 
 ## Description
-Generate Power Sets is a Python program that allows users enter input in the form of a set, and receive output in the form of a power set.
+Generate Power Sets is a Python application that allows users to enter input in the form of a set, and receive output in the form of a power set.
 
 ## Features
 - Takes a set as input from the user (entered as a comma-separated list of elements).
