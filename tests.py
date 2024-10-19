@@ -2,6 +2,7 @@
 
 from app import generate_power_set
 
+# Normal test cases
 def test_three_elements():
     input_set = {'a', 'b', 'c'}
     expected_output = [
@@ -32,6 +33,7 @@ def test_four_elements():
     result = generate_power_set(input_set)
     assert set(result) == set(expected_output)
 
+# Edge test cases
 def test_empty_set():
     input_set = set()
     expected_output = [frozenset()]
